@@ -1,0 +1,43 @@
+.root {
+  max-width: 1800;
+
+}
+.body {
+  margin-left: 10px;
+  background-color: rgb(214, 211, 211);
+}
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+  object-fit: cover;
+  height: 450px;
+}
+.card {
+  margin: 6px;
+  border-radius: 8px;
+}
+
+.headbox {
+  background-color: #424242;
+  height: 100px;
+  padding: 3px;
+}
+.headletter {
+  font-size: 1rem;
+  font-family: arial;
+  margin-left: auto;
+  margin-top: 5px;
+  font-weight: bolder;
+  color: rgb(250, 246, 246);
+  text-align: center;
+}
+.headletter2 {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 8px;
+  font-weight: bolder;
+  color: rgb(252, 250, 250);
+}

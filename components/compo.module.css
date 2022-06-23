@@ -1,0 +1,47 @@
+.card {
+  margin: 10px 5px;
+}
+.image {
+  border-radius: 20px;
+}
+.pname {
+  text-align: center;
+  color: #fff;
+}
+.ptitle {
+  width: 340px;
+  height: 25px;
+  background-color: rgb(59, 59, 58);
+  margin: 0px 5px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+.price {
+  text-align: center;
+  color: #fff;
+}
+.desc {
+  text-align: center;
+  color: #fff;
+}
+.maincard {
+  margin: 10px 5px;
+}
+.video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 720px;
+}
+.videobox {
+  margin: 10px 5px;
+}
+.videotitle {
+  color: rgb(12, 11, 11);
+  width: 350px;
+  height: 25px;
+  background-color: rgb(235, 216, 44);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
