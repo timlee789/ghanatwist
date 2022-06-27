@@ -78,11 +78,11 @@ export default function Home() {
          <fieldset  className={cla.fieldset}>
 			<legend>Which Hair do you prefer</legend>
 			<label className={cla.container}>Butterfly Locs 24 inch 
-				<input  type="checkbox" value='xpression' checked={Radio ==='xpression'} onChange={(e) =>setRadio(e.target.value)} name='prize' className={cla.inputbox}/>       
+				<input  type="checkbox" value='butterflylocs' checked={Radio ==='butterflylocs'} onChange={(e) =>setRadio(e.target.value)} name='prize' className={cla.inputbox}/>       
         <span className={cla.checkmark}></span>
 			</label>
       <label className={cla.container}>Passion Twist 24 inch
-				<input  type="checkbox" value='ghanabraid50' checked={Radio ==='ghanabraid50'} onChange={(e) =>setRadio(e.target.value)} name='prize' className={cla.inputbox} />       
+				<input  type="checkbox" value='passiontwist' checked={Radio ==='passiontwist'} onChange={(e) =>setRadio(e.target.value)} name='prize' className={cla.inputbox} />       
         <span className={cla.checkmark}></span>
 			</label>
      
@@ -98,7 +98,7 @@ export default function Home() {
               <span className={cla.checkmark}></span>
             </label>
       </fieldset>
-         <button className={cla.btn}>Soumèt</button>
+         <button className={cla.btn}>Submit</button>
        </form>
        </div>
        <div className={cla.textbox}>
