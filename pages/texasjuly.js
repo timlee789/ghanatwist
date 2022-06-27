@@ -112,7 +112,7 @@ export default function Home() {
          
        </div>
        </center>
-       <div className={cla.phototitle}>Kado Galon</div>
+       <div className={cla.phototitle}>Ghana Twist </div>
        <div className={cla.album}>
        <div className={cla.box} >
           <Image src='https://bijouxhair.com/tim/ad/butterfly2.jpg' alt='dlfd' className={cla.image} width='600px' height='720'/>
