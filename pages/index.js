@@ -41,7 +41,7 @@ export default function Home() {
      }
      async function addDataHandler(inputData) {
 
-      const response = await fetch('/api/posts',
+      const response = await fetch('/api/texasevent',
           {
               method: 'POST',
               body: JSON.stringify(inputData),
@@ -57,43 +57,43 @@ export default function Home() {
     <div className={cla.main}>
        <Head>  
         <meta name="viewport" content="width=1150"/>
-        <title>Ghana Braid Evènman kado</title>
-        <meta name="description" content="Ghana Braid Evènman kado" />
-        <link rel="image_src" href="https://bijouxhair.com/tim//ad/xpressionhead.jpg" />     
-        <meta property="og:title" content="Ghana Braid Evènman kado" />    
-        <meta property="og:image" content="https://bijouxhair.com/tim//ad/xpressionhead.jpg"/>
-        <meta property="og:description" content="Ghana Braid Evènman kado"/>
+        <title>Ghana Twist Giveaway Event</title>
+        <meta name="description" content="Ghana Twist Giveaway Event" />
+        <link rel="image_src" href="https://bijouxhair.com/tim//ad/butterfly_mainimage.jpg" />     
+        <meta property="og:title" content="Ghana Twist Giveaway Event" />    
+        <meta property="og:image" content="https://bijouxhair.com/tim//ad/butterfly_mainimage.jpg"/>
+        <meta property="og:description" content="Ghana Twist Giveaway Event"/>
         <meta property="og:site_name" content="Beauty Elements"/> 
     </Head>
       <main className={cla.body}>
         <center>
-       <h2 className={cla.formback2}>Beauty Elements Evènman kado</h2>
+       <h2 className={cla.formback2}>Beauty Elements Giveaway Event</h2>
       
-      <Image src='https://bijouxhair.com/tim/ad/xpressionhead.jpg' alt='banner' width='600px' height='713px'/>
+      <Image src='https://bijouxhair.com/tim/ad/butterfly_mainimage.jpg' alt='banner' width='600px' height='821px'/>
        <div className={cla.formback}>
        <form onSubmit={submitHandler}>
-         <input type='text' id='name' ref={refName} placeholder='Non' className={cla.inputbox} required /><br/>
-         <input type='text' id='tel' ref={refTel} placeholder='Telefòn' className={cla.inputbox} required /><br/>
-         <input type='text' id='email' ref={refEmail} placeholder='imel' className={cla.inputbox} required />
+         <input type='text' id='name' ref={refName} placeholder='Name' className={cla.inputbox} required /><br/>
+         <input type='text' id='tel' ref={refTel} placeholder='Phone Number' className={cla.inputbox} required /><br/>
+         <input type='text' id='email' ref={refEmail} placeholder='email' className={cla.inputbox} required />
          <fieldset  className={cla.fieldset}>
-			<legend>Chwazi atik kado ou vle a</legend>
-			<label className={cla.container}>Xpression 84 x 5Pake 
+			<legend>Which Hair do you prefer</legend>
+			<label className={cla.container}>Butterfly Locs 24 inch 
 				<input  type="checkbox" value='xpression' checked={Radio ==='xpression'} onChange={(e) =>setRadio(e.target.value)} name='prize' className={cla.inputbox}/>       
         <span className={cla.checkmark}></span>
 			</label>
-      <label className={cla.container}>3X Ghana Braid 60 x 5Pake
+      <label className={cla.container}>Passion Twist 24 inch
 				<input  type="checkbox" value='ghanabraid50' checked={Radio ==='ghanabraid50'} onChange={(e) =>setRadio(e.target.value)} name='prize' className={cla.inputbox} />       
         <span className={cla.checkmark}></span>
 			</label>
      
 		</fieldset>
     <fieldset  className={cla.fieldset}>
-    <legend>Estetisyen ?</legend>
-          <label className={cla.container}>Mwen se yon èstetisyen
+    <legend>Beautician ?</legend>
+          <label className={cla.container}>I am a beautician.
               <input  type="radio" value='beautician' checked={Check ==='beautician'} onChange={(e) =>setCheck(e.target.value)} name='beautician' className={cla.inputbox} />       
               <span className={cla.checkmark}></span>
             </label>
-          <label className={cla.container}>Mwen pa yon èstetisyen
+          <label className={cla.container}>I am not a beautician.
               <input  type="radio" value='nobeautician' checked={Check ==='nobeautician'} onChange={(e) =>setCheck(e.target.value)} name='beautician' className={cla.inputbox} />       
               <span className={cla.checkmark}></span>
             </label>
@@ -102,12 +102,12 @@ export default function Home() {
        </form>
        </div>
        <div className={cla.textbox}>
-       <h3>Pou jwenn kado a gratis Cheve: </h3>
+       <h3>To get the free giveaway Ghana Twist Hair: </h3>
        <ul className={cla.ula}>
-         <li>Ranpli enskripsyon an pi wo a.</li>
-         <li>Chwazi alonj ou vle anba a.</li>
-         <li>Swiv @Bijouxhairusa</li>
-         <li>Chwazi 20 ganyan chak mwa.</li>
+         <li>Fill out the registration above.</li>
+         <li>Select the Ghana Twist Hair you want bellow.</li>
+         
+         <li>5 winners are selected every 2 weeks.</li>
        </ul>
          
        </div>
@@ -115,50 +115,39 @@ export default function Home() {
        <div className={cla.phototitle}>Kado Galon</div>
        <div className={cla.album}>
        <div className={cla.box} >
-          <Image src='https://bijouxhair.com/tim/ad/xpression1.jpg' alt='dlfd' className={cla.image} width='600px' height='720'/>
-           <center className={cla.name}>Xpression Braid 84</center>
+          <Image src='https://bijouxhair.com/tim/ad/butterfly2.jpg' alt='dlfd' className={cla.image} width='600px' height='720'/>
+          
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-          <Image src='https://bijouxhair.com/tim/ad/xpression2.jpg' alt='dlfd' className={cla.image}  width='600px' height='720'/>
-           <center className={cla.name}>Xpression Braid 84</center>
+          <Image src='https://bijouxhair.com/tim/ad/passiontwist2.jpg' alt='dlfd' className={cla.image}  width='600px' height='720'/>
+          
+        </div>
+        </div>
+        
+        <div className={cla.album} >
+        <div className={cla.box} >
+        <iframe width="590" height="338" src="https://www.youtube.com/embed/zHF94OrbGZs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+           <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-          <Image src='https://bijouxhair.com/tim/landing/headbanner.jpg' alt='dlfd' className={cla.image} width='600px' height='422px' />
-           <center className={cla.name}>3X Ghana Braid</center>
+        <iframe width="590" height="338" src="https://www.youtube.com/embed/HxiXwmNJ8Kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+           <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-          <Image src='https://bijouxhair.com/tim/landing/3xghana1.jpg' alt='dlfd' className={cla.image} width='600' height='776px'/>
-           <center className={cla.name}>3X Ghana Braid</center>
-        </div>
-        </div>
-        <div className={cla.album} >
-        <div className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/xN0WFhVQxV0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-           <center className={cla.name}>3X Ghana Braid</center>
-        </div>
-        </div>
-        <div className={cla.album} >
-        <div className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/mnM5Noi_W7c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-           <center className={cla.name}>3X Ghana Braid</center>
-        </div>
-        </div>
-        <div className={cla.album} >
-        <div className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/uDyX878Q8mc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-           <center className={cla.name}>3X Ghana Braid</center>
+        <iframe width="590" height="338" src="https://www.youtube.com/embed/BJN6GuMt4Qc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+           <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
        </div>
        <div className={cla.album} >
         <div  className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/UQmoK6Zu36k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-           <center className={cla.name}>Xpression Braid 84</center>
+        <iframe width="590" height="338" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+           <center className={cla.name}>Ghana Passion Tiwst</center>
         </div>
         </div>
        {/* <div className={cla.phototitle}>Giveaway Wigs</div>
