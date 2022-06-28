@@ -108,6 +108,7 @@ export default function Home() {
          <li>Select the Ghana Twist Hair you want bellow.</li>
          
          <li>5 winners are selected every 2 weeks.</li>
+         <li>The hair (3 packs each winner) will be sent by mail.</li>
        </ul>
          
        </div>
