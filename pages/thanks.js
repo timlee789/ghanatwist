@@ -6,11 +6,11 @@ function Thanks() {
          
         <main>
         <center>
-       <h2>Destiny Wig Giveaway Event</h2>
-      <img src='https://bijouxhair.com/tim/ad/mainbanner.jpg' alt='banner'/>
+       <h2>Ghana Twist Braid Giveaway Event</h2>
+      <img src='https://bijouxhair.com/tim/ad/ADimage.jpg' alt='banner'/>
         <div className={cla.thanks}>
-        Mèsi paske w patisipe.<br/>
-        Nou anonse ganyan yo chak lendi pa Instagram epi kontakte ganyan yo pa imel.
+       Thank you for Participating<br/>
+        We will announce the winners on July 12  2022
        <br/> 
        </div>
        </center>
