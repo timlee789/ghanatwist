@@ -23,7 +23,7 @@ export default async function handler(req, res) {
             let { db } = await connectToDb();
             // fetch the posts
             let posts = await db
-                .collection('haiti-event')
+                .collection('texasevent')
                 .find({})
                 .sort({ _id: -1 })
                 .toArray();

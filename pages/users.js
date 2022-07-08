@@ -41,7 +41,7 @@ function users({userdata}) {
 export default users
 
 export async function getServerSideProps() {
-let response = await fetch('https://ghanabraid.com/api/posts')
+let response = await fetch('https://ghanatwist.com/api/texasevent')
 let post = await response.json()
     return{
         props: {
