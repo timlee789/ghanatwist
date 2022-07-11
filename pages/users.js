@@ -6,7 +6,7 @@ function users({userdata}) {
        
         <main>
         <center>
-       <h2>Destiny Wig Giveaway Event</h2>
+       <h2>Ghana Twist Texas Giveaway Event</h2>
       <img src='https://bijouxhair.com/tim/ad/mainbanner.jpg' alt='banner'/>
         <div >
         {userdata.map( data => (
