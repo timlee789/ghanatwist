@@ -1,5 +1,6 @@
 import React from 'react'
 import cla from '../styles/form.module.css';
+import { CSVLink } from 'react-csv';
 function users({userdata}) {
   return (
     <div>
@@ -7,8 +8,9 @@ function users({userdata}) {
         <main>
         <center>
        <h2>Ghana Twist Texas Giveaway Event</h2>
-      <img src='https://bijouxhair.com/tim/ad/mainbanner.jpg' alt='banner'/>
+      <img src='https://bijouxhair.com/tim/ad/user-image.jpg' alt='banner'/>
         <div >
+        <CSVLink data={userdata} >DOWNLOAD LIST</CSVLink>
         {userdata.map( data => (
                <div key={data.id} className={cla.userbox}>
               <div className={cla.user}> {data.name} </div>

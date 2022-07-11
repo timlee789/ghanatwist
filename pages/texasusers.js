@@ -1,13 +1,17 @@
 import React from 'react'
 import cla from '../styles/form.module.css';
+import { CSVLink } from 'react-csv';
 function users({userdata}) {
   return (
     <div>
        
         <main>
         <center>
-       <h2>Destiny Wig Giveaway Event</h2>
-      <img src='https://bijouxhair.com/tim/ad/mainbanner.jpg' alt='banner'/>
+       <h2>GhanaTwist Giveaway Event</h2>
+      <img src='https://bijouxhair.com/tim/ad/user-image.jpg' alt='banner'/>
+      <div>
+        <CSVLink data={userdata} >DOWNLOAD LIST</CSVLink>
+      </div>
         <div >
         {userdata.map( data => (
                <div key={data.id} className={cla.userbox}>
