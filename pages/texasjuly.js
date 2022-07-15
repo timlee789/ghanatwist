@@ -69,7 +69,7 @@ export default function Home() {
         <center>
        <h2 className={cla.formback2}>Beauty Elements Giveaway Event</h2>
       
-      <Image src='https://bijouxhair.com/tim/ad/butterfly_mainimage.jpg' alt='banner' width='600px' height='821px'/>
+      <Image src='https://bijouxhair.com/tim/ad/butterfly_mainimage2.jpg' alt='banner' width='600px' height='821px'/>
        <div className={cla.formback}>
        <form onSubmit={submitHandler}>
          <input type='text' id='name' ref={refName} placeholder='Name' className={cla.inputbox} required /><br/>
