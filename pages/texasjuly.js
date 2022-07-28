@@ -129,25 +129,25 @@ export default function Home() {
         
         <div className={cla.album} >
         <div className={cla.box} >
-        <iframe width="600" height="280" src="https://www.youtube.com/embed/zHF94OrbGZs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/zHF94OrbGZs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-        <iframe width="600" height="280" src="https://www.youtube.com/embed/HxiXwmNJ8Kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/HxiXwmNJ8Kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-        <iframe width="600" height="280" src="https://www.youtube.com/embed/BJN6GuMt4Qc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/BJN6GuMt4Qc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
        </div>
        <div className={cla.album} >
         <div  className={cla.box} >
-        <iframe width="600px" height="280" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="300px" height="150" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Passion Tiwst</center>
         </div>
         </div>
