@@ -147,7 +147,7 @@ export default function Home() {
        </div>
        <div className={cla.album} >
         <div  className={cla.box} >
-        <iframe width="600px" height="200" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="600px" height="280" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Passion Tiwst</center>
         </div>
         </div>
