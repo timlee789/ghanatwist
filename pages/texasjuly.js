@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className={cla.main}>
        <Head>  
-        <meta name="viewport" content="width=1150"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Ghana Twist Giveaway Event</title>
         <meta name="description" content="Ghana Twist Giveaway Event" />
         <link rel="image_src" href="https://bijouxhair.com/tim//ad/butterfly_mainimage.jpg" />     
@@ -69,7 +69,7 @@ export default function Home() {
         <center>
        <h2 className={cla.formback2}>Beauty Elements Giveaway Event</h2>
       
-      <Image src='https://bijouxhair.com/tim/ad/butterfly_mainimage2.jpg' alt='banner' width='600px' height='821px'/>
+      <Image src='https://bijouxhair.com/tim/ad/butterfly_mainimage3.jpg' alt='banner' width='600px' height='821px'/>
        <div className={cla.formback}>
        <form onSubmit={submitHandler}>
          <input type='text' id='name' ref={refName} placeholder='Name' className={cla.inputbox} required /><br/>
@@ -129,25 +129,25 @@ export default function Home() {
         
         <div className={cla.album} >
         <div className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/zHF94OrbGZs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="600" height="280" src="https://www.youtube.com/embed/zHF94OrbGZs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/HxiXwmNJ8Kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="600" height="280" src="https://www.youtube.com/embed/HxiXwmNJ8Kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
         </div>
         <div className={cla.album} >
         <div className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/BJN6GuMt4Qc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="600" height="280" src="https://www.youtube.com/embed/BJN6GuMt4Qc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Butterfly Locs</center>
         </div>
        </div>
        <div className={cla.album} >
         <div  className={cla.box} >
-        <iframe width="590" height="338" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe width="600px" height="200" src="https://www.youtube.com/embed/hXoOTDoaLvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
            <center className={cla.name}>Ghana Passion Tiwst</center>
         </div>
         </div>
